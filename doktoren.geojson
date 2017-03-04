@@ -1,0 +1,430 @@
+var Doctors = {
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2017-03-04T13:07:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "way/130997084",
+      "properties": {
+        "@id": "way/130997084",
+        "addr:city": "Jena",
+        "addr:housenumber": "20",
+        "addr:postcode": "07743",
+        "addr:street": "Zeitzer Straße",
+        "amenity": "Doktoren",
+        "building": "yes",
+        "building:levels": "2",
+        "contact:website": "http://www.nuklearmedizin-jena.de",
+        "healthcare:speciality": "radiology",
+        "name": "Radiologische Praxis Jena Nord",
+        "office": "physician"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.6052833,
+              50.9479999
+            ],
+            [
+              11.6049827,
+              50.9478095
+            ],
+            [
+              11.6048361,
+              50.9477166
+            ],
+            [
+              11.6050159,
+              50.9475928
+            ],
+            [
+              11.6054746,
+              50.9478808
+            ],
+            [
+              11.6052833,
+              50.9479999
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/243775545",
+      "properties": {
+        "@id": "way/243775545",
+        "addr:city": "Jena",
+        "addr:country": "DE",
+        "addr:housenumber": "1",
+        "addr:postcode": "07743",
+        "addr:street": "Schillbachstraße",
+        "amenity": "Doktoren",
+        "building": "commercial",
+        "building:levels": "2",
+        "contact:phone": "+49 3641 221606",
+        "contact:website": "http://www.hautarzt-jena.de/",
+        "healthcare": "doctor",
+        "healthcare:speciality": "dermatovenereology",
+        "name": "Hautarzt Dr. med. Marion Runnebaum"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.5753739,
+              50.9359737
+            ],
+            [
+              11.5752695,
+              50.9358469
+            ],
+            [
+              11.5754919,
+              50.9357741
+            ],
+            [
+              11.5755963,
+              50.9359009
+            ],
+            [
+              11.5753739,
+              50.9359737
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/396093391",
+      "properties": {
+        "@id": "way/396093391",
+        "addr:city": "Jena",
+        "addr:housenumber": "2",
+        "addr:postcode": "07743",
+        "addr:street": "Zitzmannstraße",
+        "amenity": "Doktoren",
+        "building": "house",
+        "name": "Urologie-Praxis E. Hofmann"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.6034096,
+              50.9515472
+            ],
+            [
+              11.6031906,
+              50.9514953
+            ],
+            [
+              11.6032063,
+              50.951469
+            ],
+            [
+              11.6031608,
+              50.9514583
+            ],
+            [
+              11.6032106,
+              50.951375
+            ],
+            [
+              11.6033535,
+              50.9514089
+            ],
+            [
+              11.6033443,
+              50.9514243
+            ],
+            [
+              11.6033994,
+              50.9514374
+            ],
+            [
+              11.6033761,
+              50.9514763
+            ],
+            [
+              11.6034426,
+              50.951492
+            ],
+            [
+              11.6034096,
+              50.9515472
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/565552591",
+      "properties": {
+        "@id": "node/565552591",
+        "addr:city": "Jena",
+        "addr:country": "DE",
+        "addr:housenumber": "8",
+        "addr:postcode": "07743",
+        "addr:street": "Engelplatz",
+        "amenity": "Doktoren",
+        "name": "Ringelmann Wendenburg Kinderarzt",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5832075,
+          50.9262331
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/593243564",
+      "properties": {
+        "@id": "node/593243564",
+        "addr:city": "Jena",
+        "addr:housenumber": "16",
+        "addr:postcode": "07747",
+        "addr:street": "Susanne-Bohl-Straße",
+        "addr:suburb": "Lobeda",
+        "amenity": "Doktoren"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6069152,
+          50.893103
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/626491110",
+      "properties": {
+        "@id": "node/626491110",
+        "amenity": "Doktoren",
+        "name": "Dr. Gneist",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5753658,
+          50.9312852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/637041636",
+      "properties": {
+        "@id": "node/637041636",
+        "addr:city": "Jena",
+        "amenity": "Doktoren"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5766975,
+          50.9232431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/637041846",
+      "properties": {
+        "@id": "node/637041846",
+        "amenity": "Doktoren"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5736398,
+          50.9220291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/637042837",
+      "properties": {
+        "@id": "node/637042837",
+        "amenity": "Doktoren",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.570228,
+          50.9213359
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/667914684",
+      "properties": {
+        "@id": "node/667914684",
+        "addr:city": "Jena",
+        "addr:country": "DE",
+        "addr:housenumber": "140",
+        "addr:postcode": "07743",
+        "addr:street": "Dornburger Straße",
+        "amenity": "Doktoren",
+        "name": "Zahnarzt Katja Abendroth"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5948484,
+          50.9435879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1442220314",
+      "properties": {
+        "@id": "node/1442220314",
+        "amenity": "Doktoren",
+        "emergency": "no",
+        "name": "Kinderarztpraxis",
+        "office": "physician",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.604588,
+          50.9471375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2609389738",
+      "properties": {
+        "@id": "node/2609389738",
+        "amenity": "Doktoren",
+        "name": "Kassenärztlicher Notdienst"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6192143,
+          50.8864702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3795470949",
+      "properties": {
+        "@id": "node/3795470949",
+        "amenity": "Doktoren",
+        "name": "Gemeinschaftspraxis Müller, Thiele"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6143027,
+          50.88495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4077523338",
+      "properties": {
+        "@id": "node/4077523338",
+        "amenity": "Doktoren",
+        "name": "Allgemeinmedizin Frau Dr. Wolf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.601767,
+          50.9493147
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4172639697",
+      "properties": {
+        "@id": "node/4172639697",
+        "addr:city": "Jena",
+        "addr:housenumber": "22",
+        "addr:postcode": "07749",
+        "addr:street": "Schenkstraße",
+        "amenity": "Doktoren",
+        "name": "MVZ Jena HELIOS Versorgungszentren",
+        "opening_hours": "Mo,We,Fr 08:00-12:00; Tu 08:00-12:00,16:00-19:00; Th 15:00-18:00; PH off",
+        "phone": "03641335904"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6001526,
+          50.9310487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4302479445",
+      "properties": {
+        "@id": "node/4302479445",
+        "addr:city": "Jena",
+        "addr:housenumber": "3-4",
+        "addr:postcode": "07743",
+        "addr:street": "Ernst-Abbe-Platz",
+        "amenity": "Doktoren",
+        "name": "Diabetologische Schwerpunktpraxis",
+        "opening_hours": "Mo,Tu,Th 08:00-11:00,14:00-18:00; We,Fr 08:00-11:00",
+        "website": "http://www.diabetes-jena.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5816598,
+          50.9279882
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4573778503",
+      "properties": {
+        "@id": "node/4573778503",
+        "addr:city": "Jena",
+        "addr:housenumber": "91",
+        "addr:postcode": "07743",
+        "addr:street": "Camburger Straße",
+        "amenity": "Doktoren",
+        "level": "0",
+        "name": "Dr. med. Kielstein",
+        "phone": "+49 3641 821122",
+        "website": "http://www.kielstein.de"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6059246,
+          50.94755
+        ]
+      }
+    }
+  ]
+}

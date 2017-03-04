@@ -1,0 +1,2418 @@
+var Parkbaenke =
+    {
+      "type": "FeatureCollection",
+      "generator": "overpass-turbo",
+      "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+      "timestamp": "2017-03-04T13:39:02Z",
+      "features": [
+        {
+          "type": "Feature",
+          "id": "way/153588732",
+          "properties": {
+            "@id": "way/153588732",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  11.6039954,
+                  50.9214339
+                ],
+                [
+                  11.6040061,
+                  50.9214299
+                ],
+                [
+                  11.6040186,
+                  50.921428
+                ],
+                [
+                  11.6040336,
+                  50.9214287
+                ],
+                [
+                  11.6040509,
+                  50.921432
+                ],
+                [
+                  11.6040625,
+                  50.9214365
+                ],
+                [
+                  11.6040716,
+                  50.9214415
+                ],
+                [
+                  11.6040753,
+                  50.9214442
+                ],
+                [
+                  11.6040704,
+                  50.921447
+                ],
+                [
+                  11.6040603,
+                  50.9214399
+                ],
+                [
+                  11.6040471,
+                  50.9214351
+                ],
+                [
+                  11.6040286,
+                  50.9214324
+                ],
+                [
+                  11.6040135,
+                  50.9214325
+                ],
+                [
+                  11.6040027,
+                  50.9214355
+                ],
+                [
+                  11.603999,
+                  50.9214369
+                ],
+                [
+                  11.6039954,
+                  50.9214339
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "way/153588733",
+          "properties": {
+            "@id": "way/153588733",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                11.6040304,
+                50.9216286
+              ],
+              [
+                11.6040306,
+                50.9216286
+              ],
+              [
+                11.6040496,
+                50.9216254
+              ],
+              [
+                11.6040665,
+                50.9216197
+              ],
+              [
+                11.6040785,
+                50.9216131
+              ],
+              [
+                11.6040887,
+                50.9216049
+              ],
+              [
+                11.6040922,
+                50.9215968
+              ],
+              [
+                11.6040929,
+                50.9215928
+              ],
+              [
+                11.6040887,
+                50.9215925
+              ],
+              [
+                11.6040861,
+                50.9216
+              ],
+              [
+                11.6040802,
+                50.9216064
+              ],
+              [
+                11.6040705,
+                50.9216131
+              ],
+              [
+                11.6040624,
+                50.9216167
+              ],
+              [
+                11.6040512,
+                50.9216206
+              ],
+              [
+                11.6040415,
+                50.9216228
+              ],
+              [
+                11.6040291,
+                50.9216245
+              ],
+              [
+                11.6040306,
+                50.9216286
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/307748105",
+          "properties": {
+            "@id": "node/307748105",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.6000637,
+              50.9143584
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/319500713",
+          "properties": {
+            "@id": "node/319500713",
+            "amenity": "bench",
+            "backrest": "yes",
+            "colour": "brown",
+            "material": "wood",
+            "name": "Eugens Bank",
+            "seats": "3",
+            "tourism": "viewpoint"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5959292,
+              50.9113682
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/339953193",
+          "properties": {
+            "@id": "node/339953193",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5611863,
+              50.9291524
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/462678043",
+          "properties": {
+            "@id": "node/462678043",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5788173,
+              50.9416905
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/462678050",
+          "properties": {
+            "@id": "node/462678050",
+            "amenity": "bench",
+            "ref": "463"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.577899,
+              50.9398408
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/462683888",
+          "properties": {
+            "@id": "node/462683888",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5799331,
+              50.9427883
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/462686824",
+          "properties": {
+            "@id": "node/462686824",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5816498,
+              50.936509
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/479197681",
+          "properties": {
+            "@id": "node/479197681",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.6119732,
+              50.924435
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/479197691",
+          "properties": {
+            "@id": "node/479197691",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.6095528,
+              50.9248029
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/480364881",
+          "properties": {
+            "@id": "node/480364881",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.6166212,
+              50.9245992
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/489590421",
+          "properties": {
+            "@id": "node/489590421",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5577704,
+              50.9304863
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/549220038",
+          "properties": {
+            "@id": "node/549220038",
+            "amenity": "bench",
+            "backrest": "no",
+            "material": "wood",
+            "seats": "4"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.6165728,
+              50.9151336
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/549225502",
+          "properties": {
+            "@id": "node/549225502",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.6071779,
+              50.9116062
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/549229654",
+          "properties": {
+            "@id": "node/549229654",
+            "amenity": "bench",
+            "backrest": "yes",
+            "material": "wood",
+            "name": "Mutti Silke"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.6157954,
+              50.9121887
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/550411304",
+          "properties": {
+            "@id": "node/550411304",
+            "amenity": "bench",
+            "backrest": "no",
+            "material": "wood",
+            "seats": "4"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5975492,
+              50.9144163
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/550411305",
+          "properties": {
+            "@id": "node/550411305",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5951891,
+              50.9152951
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/567922444",
+          "properties": {
+            "@id": "node/567922444",
+            "amenity": "bench",
+            "backrest": "yes",
+            "colour": "brown",
+            "material": "wood",
+            "ref": "175",
+            "seats": "4"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5645781,
+              50.9376571
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/567922445",
+          "properties": {
+            "@id": "node/567922445",
+            "amenity": "bench",
+            "backrest": "yes",
+            "colour": "brown",
+            "material": "wood",
+            "ref": "174",
+            "seats": "4"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5653674,
+              50.9376459
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/567922446",
+          "properties": {
+            "@id": "node/567922446",
+            "amenity": "bench",
+            "backrest": "yes",
+            "colour": "brown",
+            "material": "wood",
+            "ref": "173",
+            "seats": "4"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5660648,
+              50.9378503
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/567922447",
+          "properties": {
+            "@id": "node/567922447",
+            "amenity": "bench",
+            "backrest": "yes",
+            "colour": "brown",
+            "material": "wood",
+            "ref": "172",
+            "seats": "4"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5660955,
+              50.9377265
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/567927004",
+          "properties": {
+            "@id": "node/567927004",
+            "amenity": "bench",
+            "backrest": "yes",
+            "colour": "brown",
+            "material": "wood",
+            "ref": "171",
+            "seats": "4"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5737437,
+              50.9401692
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/567927007",
+          "properties": {
+            "@id": "node/567927007",
+            "amenity": "bench",
+            "backrest": "yes",
+            "colour": "brown",
+            "material": "wood",
+            "ref": "137",
+            "seats": "3"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5770308,
+              50.9399994
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/573453505",
+          "properties": {
+            "@id": "node/573453505",
+            "amenity": "bench",
+            "name": "Lutherkanzel",
+            "tourism": "viewpoint"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5544065,
+              50.9396032
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/574727840",
+          "properties": {
+            "@id": "node/574727840",
+            "amenity": "bench",
+            "backrest": "yes",
+            "colour": "brown",
+            "material": "wood",
+            "ref": "187",
+            "seats": "4"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5613064,
+              50.9291463
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/574735997",
+          "properties": {
+            "@id": "node/574735997",
+            "amenity": "bench",
+            "backrest": "yes",
+            "colour": "brown",
+            "material": "wood",
+            "ref": "523",
+            "seats": "4"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5614608,
+              50.9247
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/631800971",
+          "properties": {
+            "@id": "node/631800971",
+            "amenity": "bench",
+            "tourism": "viewpoint"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5575521,
+              50.9238802
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/702202236",
+          "properties": {
+            "@id": "node/702202236",
+            "amenity": "bench",
+            "backrest": "yes",
+            "colour": "brown",
+            "material": "wood",
+            "seats": "3"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5818397,
+              50.9394792
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/728610897",
+          "properties": {
+            "@id": "node/728610897",
+            "amenity": "bench",
+            "backrest": "yes",
+            "material": "wood"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.571602,
+              50.9385657
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/932763580",
+          "properties": {
+            "@id": "node/932763580",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5888599,
+              50.9232146
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/932763588",
+          "properties": {
+            "@id": "node/932763588",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5888061,
+              50.9233384
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/932763592",
+          "properties": {
+            "@id": "node/932763592",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.588608,
+              50.9233879
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/932763596",
+          "properties": {
+            "@id": "node/932763596",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5887794,
+              50.9230674
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/932814652",
+          "properties": {
+            "@id": "node/932814652",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5836357,
+              50.9231393
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/932814656",
+          "properties": {
+            "@id": "node/932814656",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5861999,
+              50.9227775
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/932814658",
+          "properties": {
+            "@id": "node/932814658",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5862536,
+              50.9228417
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/974989747",
+          "properties": {
+            "@id": "node/974989747",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5605745,
+              50.9114358
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/974989749",
+          "properties": {
+            "@id": "node/974989749",
+            "amenity": "bench",
+            "backrest": "yes",
+            "colour": "brown",
+            "material": "wood",
+            "seats": "3"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5670051,
+              50.9123951
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/1131119728",
+          "properties": {
+            "@id": "node/1131119728",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5772059,
+              50.9391341
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/1135718718",
+          "properties": {
+            "@id": "node/1135718718",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5773173,
+              50.9395733
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/1135718746",
+          "properties": {
+            "@id": "node/1135718746",
+            "amenity": "bench",
+            "backrest": "no",
+            "material": "wood",
+            "seats": "3"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.57576,
+              50.9378728
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/1135718753",
+          "properties": {
+            "@id": "node/1135718753",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5772867,
+              50.9390484
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/1221970235",
+          "properties": {
+            "@id": "node/1221970235",
+            "amenity": "bench",
+            "material": "wood",
+            "seats": "8"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5951366,
+              50.9141461
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/1351061421",
+          "properties": {
+            "@id": "node/1351061421",
+            "amenity": "bench",
+            "backrest": "no",
+            "material": "wood",
+            "seats": "10"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5864708,
+              50.9288346
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/1351061426",
+          "properties": {
+            "@id": "node/1351061426",
+            "amenity": "bench",
+            "backrest": "yes",
+            "material": "wood",
+            "seats": "4"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5860845,
+              50.9289231
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/1351061434",
+          "properties": {
+            "@id": "node/1351061434",
+            "amenity": "bench",
+            "backrest": "no",
+            "material": "wood",
+            "seats": "10"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5866339,
+              50.9287729
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/1351061438",
+          "properties": {
+            "@id": "node/1351061438",
+            "amenity": "bench",
+            "backrest": "yes",
+            "material": "wood",
+            "seats": "4"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5862727,
+              50.9289168
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/1351061446",
+          "properties": {
+            "@id": "node/1351061446",
+            "amenity": "bench",
+            "backrest": "yes",
+            "material": "wood",
+            "seats": "4"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5864508,
+              50.9289025
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/1351061459",
+          "properties": {
+            "@id": "node/1351061459",
+            "amenity": "bench",
+            "backrest": "yes",
+            "material": "wood",
+            "seats": "4"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.585929,
+              50.9289263
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/1351061463",
+          "properties": {
+            "@id": "node/1351061463",
+            "amenity": "bench",
+            "backrest": "no",
+            "material": "wood",
+            "seats": "10"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5859391,
+              50.9288409
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/1351061467",
+          "properties": {
+            "@id": "node/1351061467",
+            "amenity": "bench",
+            "backrest": "yes",
+            "material": "wood",
+            "seats": "4"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5866213,
+              50.928901
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/1351061472",
+          "properties": {
+            "@id": "node/1351061472",
+            "amenity": "bench",
+            "backrest": "no",
+            "material": "wood",
+            "seats": "10"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5862125,
+              50.9288045
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/1438456510",
+          "properties": {
+            "@id": "node/1438456510",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5788791,
+              50.9364246
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/1438456511",
+          "properties": {
+            "@id": "node/1438456511",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5786163,
+              50.9364618
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/1438456515",
+          "properties": {
+            "@id": "node/1438456515",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5772756,
+              50.9369079
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/1438456516",
+          "properties": {
+            "@id": "node/1438456516",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5767602,
+              50.9367762
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/1438456517",
+          "properties": {
+            "@id": "node/1438456517",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5790296,
+              50.9363298
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/1440167259",
+          "properties": {
+            "@id": "node/1440167259",
+            "amenity": "bench",
+            "backrest": "no",
+            "material": "wood",
+            "seats": "4"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.6057543,
+              50.91125
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/1440167270",
+          "properties": {
+            "@id": "node/1440167270",
+            "amenity": "bench",
+            "backrest": "no",
+            "material": "wood",
+            "seats": "4"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5947887,
+              50.9145056
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/1440167285",
+          "properties": {
+            "@id": "node/1440167285",
+            "amenity": "bench",
+            "backrest": "yes",
+            "material": "wood",
+            "name": "Cherie",
+            "seats": "4"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.6010248,
+              50.9153727
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/1440167290",
+          "properties": {
+            "@id": "node/1440167290",
+            "amenity": "bench",
+            "backrest": "yes",
+            "material": "wood"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.6073596,
+              50.915711
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/1440167298",
+          "properties": {
+            "@id": "node/1440167298",
+            "amenity": "bench",
+            "backrest": "yes",
+            "material": "wood",
+            "seats": "4"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.6000881,
+              50.9160003
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/1440167303",
+          "properties": {
+            "@id": "node/1440167303",
+            "amenity": "bench",
+            "backrest": "yes",
+            "material": "wood",
+            "name": "Renates Blick",
+            "seats": "4"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.6120734,
+              50.9161591
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/1449580242",
+          "properties": {
+            "@id": "node/1449580242",
+            "amenity": "bench",
+            "backrest": "yes",
+            "colour": "brown",
+            "material": "wood",
+            "seats": "8"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5890982,
+              50.928709
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/1481504767",
+          "properties": {
+            "@id": "node/1481504767",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5655336,
+              50.92955
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/1564497917",
+          "properties": {
+            "@id": "node/1564497917",
+            "amenity": "bench",
+            "backrest": "yes",
+            "material": "wood"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5718568,
+              50.9270377
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/1564498002",
+          "properties": {
+            "@id": "node/1564498002",
+            "amenity": "bench",
+            "backrest": "yes",
+            "material": "wood"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5718475,
+              50.927197
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/1564498023",
+          "properties": {
+            "@id": "node/1564498023",
+            "amenity": "bench",
+            "backrest": "yes",
+            "material": "wood"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5718552,
+              50.927334
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/1746364279",
+          "properties": {
+            "@id": "node/1746364279",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5983273,
+              50.9158297
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/1747654152",
+          "properties": {
+            "@id": "node/1747654152",
+            "amenity": "bench",
+            "backrest": "yes",
+            "name": "Skiwiesenbank"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5963238,
+              50.9175304
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/1747654153",
+          "properties": {
+            "@id": "node/1747654153",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.596254,
+              50.9174087
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/1752586324",
+          "properties": {
+            "@id": "node/1752586324",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.6173609,
+              50.9230908
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/1752618328",
+          "properties": {
+            "@id": "node/1752618328",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.6035426,
+              50.925309
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/2053423271",
+          "properties": {
+            "@id": "node/2053423271",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.6052028,
+              50.9268612
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/2053423467",
+          "properties": {
+            "@id": "node/2053423467",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.6171279,
+              50.9372929
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/2089105018",
+          "properties": {
+            "@id": "node/2089105018",
+            "amenity": "bench",
+            "material": "wood",
+            "name": "Christiane & Philip",
+            "seats": "4"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.595044,
+              50.9140533
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/2122521678",
+          "properties": {
+            "@id": "node/2122521678",
+            "amenity": "bench",
+            "backrest": "yes",
+            "material": "wood",
+            "seats": "4"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.6010516,
+              50.9154543
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/2272784312",
+          "properties": {
+            "@id": "node/2272784312",
+            "amenity": "bench",
+            "backrest": "yes",
+            "colour": "brown",
+            "material": "wood",
+            "seats": "4"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5868764,
+              50.9226088
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/2281963230",
+          "properties": {
+            "@id": "node/2281963230",
+            "amenity": "bench",
+            "backrest": "no",
+            "colour": "brown",
+            "material": "wood",
+            "seats": "3"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.6093036,
+              50.9124963
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/2396471874",
+          "properties": {
+            "@id": "node/2396471874",
+            "amenity": "bench",
+            "backrest": "yes",
+            "colour": "brown",
+            "material": "wood",
+            "seats": "4"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5869977,
+              50.9226653
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/2436612433",
+          "properties": {
+            "@id": "node/2436612433",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5839745,
+              50.9242292
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/2447112290",
+          "properties": {
+            "@id": "node/2447112290",
+            "amenity": "bench",
+            "backrest": "yes",
+            "colour": "brown",
+            "material": "wood"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.61196,
+              50.9229497
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/2447112292",
+          "properties": {
+            "@id": "node/2447112292",
+            "amenity": "bench",
+            "backrest": "yes",
+            "colour": "brown",
+            "material": "wood"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.6119703,
+              50.9229553
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/2447112293",
+          "properties": {
+            "@id": "node/2447112293",
+            "amenity": "bench",
+            "backrest": "yes",
+            "colour": "brown",
+            "material": "wood"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.6119591,
+              50.9229584
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/2469359080",
+          "properties": {
+            "@id": "node/2469359080",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.586373,
+              50.9239635
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/2469359082",
+          "properties": {
+            "@id": "node/2469359082",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5864724,
+              50.9239993
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/2469359083",
+          "properties": {
+            "@id": "node/2469359083",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5860808,
+              50.9242529
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/2469359084",
+          "properties": {
+            "@id": "node/2469359084",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5864454,
+              50.9240075
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/2469359086",
+          "properties": {
+            "@id": "node/2469359086",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5863651,
+              50.9239806
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/2469359087",
+          "properties": {
+            "@id": "node/2469359087",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5861826,
+              50.9242814
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/2469381944",
+          "properties": {
+            "@id": "node/2469381944",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5877142,
+              50.9247551
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/2469381949",
+          "properties": {
+            "@id": "node/2469381949",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5876999,
+              50.9247688
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/2469381957",
+          "properties": {
+            "@id": "node/2469381957",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5876847,
+              50.9247838
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/2511410694",
+          "properties": {
+            "@id": "node/2511410694",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5648323,
+              50.9373822
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/2524512876",
+          "properties": {
+            "@id": "node/2524512876",
+            "amenity": "bench",
+            "ref": "313"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5671114,
+              50.9374564
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/2524512914",
+          "properties": {
+            "@id": "node/2524512914",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5617601,
+              50.9374296
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/2524515809",
+          "properties": {
+            "@id": "node/2524515809",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5767687,
+              50.9384459
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/2524515811",
+          "properties": {
+            "@id": "node/2524515811",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5769391,
+              50.9385769
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/2596520518",
+          "properties": {
+            "@id": "node/2596520518",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5796627,
+              50.9369744
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/2599915293",
+          "properties": {
+            "@id": "node/2599915293",
+            "amenity": "bench",
+            "backrest": "yes",
+            "colour": "brown",
+            "material": "wood",
+            "seats": "3"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5768693,
+              50.9345484
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/2604538125",
+          "properties": {
+            "@id": "node/2604538125",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5839851,
+              50.9210463
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/2604538127",
+          "properties": {
+            "@id": "node/2604538127",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5840448,
+              50.9210682
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/2604538131",
+          "properties": {
+            "@id": "node/2604538131",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5839967,
+              50.9211017
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/2617863644",
+          "properties": {
+            "@id": "node/2617863644",
+            "amenity": "bench",
+            "backrest": "yes",
+            "covered": "yes",
+            "seats": "3",
+            "source": "extrapolation"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5872187,
+              50.9248784
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/2718811362",
+          "properties": {
+            "@id": "node/2718811362",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5808445,
+              50.93716
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/2727617230",
+          "properties": {
+            "@id": "node/2727617230",
+            "amenity": "bench",
+            "backrest": "no",
+            "material": "wood"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5826765,
+              50.9286076
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/2727617236",
+          "properties": {
+            "@id": "node/2727617236",
+            "amenity": "bench",
+            "backrest": "no",
+            "material": "wood"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.582452,
+              50.9286939
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/2727617248",
+          "properties": {
+            "@id": "node/2727617248",
+            "amenity": "bench",
+            "backrest": "no",
+            "material": "wood"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.582353,
+              50.9288361
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/2862559843",
+          "properties": {
+            "@id": "node/2862559843",
+            "amenity": "bench",
+            "backrest": "yes",
+            "colour": "brown",
+            "material": "wood",
+            "seats": "3"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5983808,
+              50.9160663
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/2993667273",
+          "properties": {
+            "@id": "node/2993667273",
+            "amenity": "bench",
+            "backrest": "yes",
+            "colour": "brown",
+            "material": "wood",
+            "seats": "3"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5597013,
+              50.9294446
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/3325750867",
+          "properties": {
+            "@id": "node/3325750867",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5625852,
+              50.9341213
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/3325750868",
+          "properties": {
+            "@id": "node/3325750868",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5631789,
+              50.9339126
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/3325750869",
+          "properties": {
+            "@id": "node/3325750869",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5656582,
+              50.9336444
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/3503513530",
+          "properties": {
+            "@id": "node/3503513530",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.602781,
+              50.927506
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/3503513533",
+          "properties": {
+            "@id": "node/3503513533",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.6144866,
+              50.9243674
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/3503513537",
+          "properties": {
+            "@id": "node/3503513537",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5992679,
+              50.9162394
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/3503513544",
+          "properties": {
+            "@id": "node/3503513544",
+            "amenity": "bench",
+            "name": "Kernbergbank"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5991197,
+              50.9156535
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/3526744791",
+          "properties": {
+            "@id": "node/3526744791",
+            "amenity": "bench",
+            "backrest": "yes"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5820923,
+              50.9396358
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/3616499428",
+          "properties": {
+            "@id": "node/3616499428",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5840308,
+              50.924211
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/3616499429",
+          "properties": {
+            "@id": "node/3616499429",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5840436,
+              50.9241624
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/3616499430",
+          "properties": {
+            "@id": "node/3616499430",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5840214,
+              50.9241345
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/3617348342",
+          "properties": {
+            "@id": "node/3617348342",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5838758,
+              50.9241109
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/3617348343",
+          "properties": {
+            "@id": "node/3617348343",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5839308,
+              50.9240932
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/3670703126",
+          "properties": {
+            "@id": "node/3670703126",
+            "addr:city": "Jena",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.575253,
+              50.930104
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/3815274418",
+          "properties": {
+            "@id": "node/3815274418",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.6057269,
+              50.9183733
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/3818264497",
+          "properties": {
+            "@id": "node/3818264497",
+            "amenity": "bench",
+            "backrest": "yes"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5831103,
+              50.9266199
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/4170396114",
+          "properties": {
+            "@id": "node/4170396114",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.6021535,
+              50.9283298
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/4200321494",
+          "properties": {
+            "@id": "node/4200321494",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.588252,
+              50.9267608
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/4200321496",
+          "properties": {
+            "@id": "node/4200321496",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5882489,
+              50.9268048
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/4200321497",
+          "properties": {
+            "@id": "node/4200321497",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5882464,
+              50.9268408
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/4207182714",
+          "properties": {
+            "@id": "node/4207182714",
+            "amenity": "bench",
+            "backrest": "yes",
+            "colour": "brown",
+            "material": "wood",
+            "seats": "3"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5591753,
+              50.9292285
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/4207182716",
+          "properties": {
+            "@id": "node/4207182716",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.557515,
+              50.9290849
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/4315121741",
+          "properties": {
+            "@id": "node/4315121741",
+            "amenity": "bench",
+            "backrest": "no",
+            "colour": "gray",
+            "material": "concrete",
+            "seats": "8"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5889098,
+              50.9290665
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/4406787346",
+          "properties": {
+            "@id": "node/4406787346",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5729827,
+              50.9273333
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/4406796376",
+          "properties": {
+            "@id": "node/4406796376",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5719202,
+              50.9269306
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/4406796377",
+          "properties": {
+            "@id": "node/4406796377",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5727083,
+              50.9275045
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/4406796378",
+          "properties": {
+            "@id": "node/4406796378",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.5728469,
+              50.9274197
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "node/4419593609",
+          "properties": {
+            "@id": "node/4419593609",
+            "amenity": "bench"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.6074578,
+              50.9254357
+            ]
+          }
+        }
+      ]
+    }

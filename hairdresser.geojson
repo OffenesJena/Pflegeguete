@@ -1,0 +1,386 @@
+var Hairdresser = {
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2017-03-04T15:00:03Z",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "node/606952447",
+      "properties": {
+        "@id": "node/606952447",
+        "layer": "1",
+        "name": "SK – Friseure und mehr …",
+        "shop": "hairdresser"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5738376,
+          50.8981299
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/624282209",
+      "properties": {
+        "@id": "node/624282209",
+        "contact:website": "http://www.hairkiller.com",
+        "name": "hairkiller",
+        "shop": "hairdresser"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5889189,
+          50.9288176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/634910129",
+      "properties": {
+        "@id": "node/634910129",
+        "name": "Haarstudio Zorn",
+        "shop": "hairdresser"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.570464,
+          50.9214305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/637037657",
+      "properties": {
+        "@id": "node/637037657",
+        "contact:website": "http://www.hauptsache-in-jena.de/",
+        "name": "Hauptsache",
+        "shop": "hairdresser",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5820591,
+          50.930061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/637040607",
+      "properties": {
+        "@id": "node/637040607",
+        "addr:city": "Jena",
+        "addr:country": "DE",
+        "addr:housenumber": "16",
+        "addr:postcode": "07745",
+        "addr:street": "Westbahnhofstraße",
+        "contact:phone": "+49 (0) 36 41 / 61 52 63",
+        "name": "Haarstudio Zorn",
+        "opening_hours": "Mo-Fr 08:00-19:00",
+        "shop": "hairdresser"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5804344,
+          50.9252211
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/650529250",
+      "properties": {
+        "@id": "node/650529250",
+        "name": "Unique Cut",
+        "shop": "hairdresser",
+        "wheelchair": "no",
+        "wheelchair_toilet": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5832379,
+          50.9297251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/703862930",
+      "properties": {
+        "@id": "node/703862930",
+        "shop": "hairdresser",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.594149,
+          50.9443816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1683740009",
+      "properties": {
+        "@id": "node/1683740009",
+        "contact:website": "http://www.eska-deinfriseur.de/",
+        "name": "eska",
+        "shop": "hairdresser",
+        "toilets:wheelchair": "no",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5743839,
+          50.9020339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1874781558",
+      "properties": {
+        "@id": "node/1874781558",
+        "name": "Friseursalon Haarscharf",
+        "shop": "hairdresser",
+        "source": "local knowledge",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5723562,
+          50.9154002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2550554737",
+      "properties": {
+        "@id": "node/2550554737",
+        "contact:website": "http://www.evas-haarmoden-jena.de/",
+        "name": "Eva's Haarmoden",
+        "shop": "hairdresser"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6016815,
+          50.9300564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2550554747",
+      "properties": {
+        "@id": "node/2550554747",
+        "name": "Pony Club",
+        "shop": "hairdresser"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5995896,
+          50.9289157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2561249956",
+      "properties": {
+        "@id": "node/2561249956",
+        "contact:website": "http://diefriseure-jena.de/",
+        "name": "Die Friseure",
+        "shop": "hairdresser"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6002674,
+          50.9231719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2561249986",
+      "properties": {
+        "@id": "node/2561249986",
+        "name": "friseur - Kerstin Kost",
+        "shop": "hairdresser"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5993967,
+          50.9235359
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2598867671",
+      "properties": {
+        "@id": "node/2598867671",
+        "name": "Schnittpunkt",
+        "shop": "hairdresser",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.584375,
+          50.9262741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2683352654",
+      "properties": {
+        "@id": "node/2683352654",
+        "name": "Haarstudio-Krischker",
+        "shop": "hairdresser"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5851192,
+          50.8930546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3080114000",
+      "properties": {
+        "@id": "node/3080114000",
+        "name": "STYListIN",
+        "shop": "hairdresser"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5893727,
+          50.9307586
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3237784470",
+      "properties": {
+        "@id": "node/3237784470",
+        "addr:city": "Jena",
+        "addr:country": "DE",
+        "addr:housenumber": "41",
+        "addr:postcode": "07743",
+        "addr:street": "Talstraße",
+        "name": "Schäfer's Friseur-Eck",
+        "operator": "Friseurmeisterin Barbara Schäfer",
+        "phone": "+49 3641 820908",
+        "shop": "hairdresser",
+        "website": "http://www.schaefers-friseur-eck.de",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5703614,
+          50.9317225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3325979934",
+      "properties": {
+        "@id": "node/3325979934",
+        "contact:email": "post@pompadour-jena.de",
+        "contact:facebook": "https://www.facebook.com/PompadourJena",
+        "contact:google_plus": "https://plus.google.com/113568353727035226976/",
+        "contact:phone": "+49 3641 2740694",
+        "contact:twitter": "https://twitter.com/SalonPompadour",
+        "contact:website": "http://www.pompadour-jena.de/",
+        "name": "Salon Pompadour",
+        "opening_hours": "Tu-Fr 11:00-18:00",
+        "shop": "hairdresser",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.584518,
+          50.9250272
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3337513679",
+      "properties": {
+        "@id": "node/3337513679",
+        "name": "Friseur Team Jena",
+        "shop": "hairdresser",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5846694,
+          50.9253837
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3941813476",
+      "properties": {
+        "@id": "node/3941813476",
+        "name": "Friseur Aquamarin",
+        "shop": "hairdresser"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5846774,
+          50.9299273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4314828812",
+      "properties": {
+        "@id": "node/4314828812",
+        "name": "masson Friseure",
+        "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:00-16:00",
+        "phone": "+493641 349 977",
+        "shop": "hairdresser",
+        "website": "http://www.masson-friseure.de/salons/details/jena-johannisplatz/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5828852,
+          50.9294514
+        ]
+      }
+    }
+  ]
+}
