@@ -1,4 +1,55 @@
-{
+
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>GeoJSON tutorial - Leaflet</title>
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+	<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+
+
+	<style>
+		#map {
+			width:  100vw;
+			height: 100vh;
+		}
+	</style>
+
+	
+</head>
+<body style="margin: 0px">
+
+<div id='map'></div>
+
+<script>
+
+	function getColor(d) {
+		return d > 97.36   ? '#BD0026' :
+               d > 94.7    ? '#E31A1C' :
+               d > 92.04   ? '#FC4E2A' :
+               d > 89.38   ? '#FD8D3C' :
+               d > 86.72   ? '#FEB24C' :
+               d > 84.06   ? '#FED976' :
+               			  '#FFEDA0';
+	}
+
+	function getRadius(d) {
+		return d > 97.36 ? 14:
+               d > 94.7  ? 12:
+               d > 92.04 ? 10:
+               d > 89.38 ?  8:
+               d > 86.72 ?  6:
+               d > 84.06 ?  4:
+               			    2;
+	}
+	
+	var bicycleRental  = {
   "type": "FeatureCollection",
   "features": [
     {
@@ -8,7 +59,8 @@
         "marker-size": "medium",
         "marker-symbol": "a",
         "name": "advita Pflegedienst GmbH Niederlassung Jena SGB V / SGB XI Ambulante Pflege",
-        "adresse": "Max-Steenbeck-Str. 17, 07745 Jena"
+        "adresse": "Max-Steenbeck-Str. 17, 07745 Jena",
+		"gesamt": 94.80
       },
       "geometry": {
         "type": "Point",
@@ -25,7 +77,8 @@
         "marker-size": "medium",
         "marker-symbol": "s",
         "name": "Altenzentrum Luisenhaus",
-        "adresse": "Semmelweisstra√üe 14-16, 07743 Jena"
+        "adresse": "Semmelweisstraﬂe 14-16, 07743 Jena",
+		"gesamt": 97.10
       },
       "geometry": {
         "type": "Point",
@@ -42,7 +95,8 @@
         "marker-size": "medium",
         "marker-symbol": "a",
         "name": "APP Aktion Wandlungswelten gGmbH",
-        "adresse": "Schenkstr. 21, 07749 Jena"
+        "adresse": "Schenkstr. 21, 07749 Jena",
+		"gesamt": 97.40
       },
       "geometry": {
         "type": "Point",
@@ -59,7 +113,8 @@
         "marker-size": "medium",
         "marker-symbol": "a",
         "name": "Arbeiter-Samariter-Bund Kreisverband Jena e.V. Sozialstation",
-        "adresse": "Erfurter Str. 13, 07743 Jena"
+        "adresse": "Erfurter Str. 13, 07743 Jena",
+		"gesamt": 94.80
       },
       "geometry": {
         "type": "Point",
@@ -76,7 +131,8 @@
         "marker-size": "medium",
         "marker-symbol": "a",
         "name": "Arbeiterwohlfahrt KV Jena-Weimar e.V. Sozialstation",
-        "adresse": "Kastanienstr. 11, 07747 Jena"
+        "adresse": "Kastanienstr. 11, 07747 Jena",
+		"gesamt": 97.40
       },
       "geometry": {
         "type": "Point",
@@ -93,7 +149,8 @@
         "marker-size": "medium",
         "marker-symbol": "s",
         "name": "AWO KV Jena-Weimar e.V. AWO Tagespflege im Wohnpark Lebenszeit",
-        "adresse": "Rudolf-Breitscheid-Stra√üe 2, 07747 Jena"
+        "adresse": "Rudolf-Breitscheid-Straﬂe 2, 07747 Jena",
+		"gesamt": 0
       },
       "geometry": {
         "type": "Point",
@@ -110,7 +167,8 @@
         "marker-size": "medium",
         "marker-symbol": "s",
         "name": "AWO Seniorenzentrum Am Heiligenberg",
-        "adresse": "Naumburger Stra√üe 55a, 07743 Jena"
+        "adresse": "Naumburger Straﬂe 55a, 07743 Jena",
+		"gesamt": 98.70
       },
       "geometry": {
         "type": "Point",
@@ -126,8 +184,9 @@
         "marker-color": "#ff7e7e",
         "marker-size": "medium",
         "marker-symbol": "a",
-        "name": "Blech Martina H√§usliche Krankenpflege",
-        "adresse": "Emma-Heintz-Str. 32, 07745 Jena"
+        "name": "Blech Martina H‰usliche Krankenpflege",
+        "adresse": "Emma-Heintz-Str. 32, 07745 Jena",
+		"gesamt": 87.00
       },
       "geometry": {
         "type": "Point",
@@ -144,7 +203,8 @@
         "marker-size": "medium",
         "marker-symbol": "s",
         "name": "CURANUM Seniorenzentrum Jena",
-        "adresse": "Forstweg 59, 07745 Jena"
+        "adresse": "Forstweg 59, 07745 Jena",
+		"gesamt": 95.40
       },
       "geometry": {
         "type": "Point",
@@ -161,7 +221,8 @@
         "marker-size": "medium",
         "marker-symbol": "a",
         "name": "Deutsches Rotes Kreuz KV Jena-Eisenberg- Stadtroda e.V. Sozialstation Jena-Camburg",
-        "adresse": "Dammstr. 32, 07749 Jena"
+        "adresse": "Dammstr. 32, 07749 Jena",
+		"gesamt": 97.40
       },
       "geometry": {
         "type": "Point",
@@ -177,8 +238,9 @@
         "marker-color": "#ff7e7e",
         "marker-size": "medium",
         "marker-symbol": "t",
-        "name": "Diakonie Ostth√ºringen gGmbH",
-        "adresse": "Schlegelstrasse 1, 07747 Jena"
+        "name": "Diakonie Ostth¸ringen gGmbH",
+        "adresse": "Schlegelstrasse 1, 07747 Jena",
+		"gesamt":  0
       },
       "geometry": {
         "type": "Point",
@@ -195,7 +257,8 @@
         "marker-size": "medium",
         "marker-symbol": "a",
         "name": "Diakonie-Sozialstation Jena gGmbH",
-        "adresse": "August-Bebel-Str. 17, 07743 Jena"
+        "adresse": "August-Bebel-Str. 17, 07743 Jena",
+		"gesamt": 97.40
       },
       "geometry": {
         "type": "Point",
@@ -211,8 +274,9 @@
         "marker-color": "#ff7e7e",
         "marker-size": "medium",
         "marker-symbol": "s",
-        "name": "DO Seniorenzentrum gGmbH Gertrud Sch√§fer Haus Tagespflege",
-        "adresse": "L√∂bichauer Stra√üe 71, 07749 Jena"
+        "name": "DO Seniorenzentrum gGmbH Gertrud Sch‰fer Haus Tagespflege",
+        "adresse": "Lˆbichauer Straﬂe 71, 07749 Jena",
+		"gesamt":  0
       },
       "geometry": {
         "type": "Point",
@@ -229,7 +293,8 @@
         "marker-size": "medium",
         "marker-symbol": "s",
         "name": "DRK Seniorenheim Am Kleinertal gGmbH",
-        "adresse": "Friedrich-Zucker-Stra√üe 2, 07745 Jena"
+        "adresse": "Friedrich-Zucker-Straﬂe 2, 07745 Jena",
+		"gesamt": 91.10
       },
       "geometry": {
         "type": "Point",
@@ -246,7 +311,8 @@
         "marker-size": "medium",
         "marker-symbol": "s",
         "name": "DRK Seniorenheim Am Kleinertal gGmbH Tagespflege",
-        "adresse": "Friedrich-Zucker-Stra√üe 2, 07745 Jena"
+        "adresse": "Friedrich-Zucker-Straﬂe 2, 07745 Jena",
+		"gesamt":  0
       },
       "geometry": {
         "type": "Point",
@@ -263,7 +329,8 @@
         "marker-size": "medium",
         "marker-symbol": "a",
         "name": "Endres Gerhard Dr. Hauskrankenpflege Universum",
-        "adresse": "Magdelstieg 34, 07745 Jena"
+        "adresse": "Magdelstieg 34, 07745 Jena",
+		"gesamt": 94.80
       },
       "geometry": {
         "type": "Point",
@@ -280,7 +347,8 @@
         "marker-size": "medium",
         "marker-symbol": "t",
         "name": "linimed GmbH",
-        "adresse": "Fregestr. 8, 07747 Jena"
+        "adresse": "Fregestr. 8, 07747 Jena",
+		"gesamt": 90.30
       },
       "geometry": {
         "type": "Point",
@@ -297,7 +365,8 @@
         "marker-size": "medium",
         "marker-symbol": "a",
         "name": "Linimed GmbH Ambulante Intensivpflege",
-        "adresse": "Fregestr. 8, 07747 Jena"
+        "adresse": "Fregestr. 8, 07747 Jena",
+		"gesamt": 94.80
       },
       "geometry": {
         "type": "Point",
@@ -314,7 +383,8 @@
         "marker-size": "medium",
         "marker-symbol": "s",
         "name": "linimed Residenzen GmbH Pflegeheim 'Am Hahnengrund'",
-        "adresse": "Schr√∂dingerstra√üe 94, 07745 Jena"
+        "adresse": "Schrˆdingerstraﬂe 94, 07745 Jena",
+		"gesamt": 88.50
       },
       "geometry": {
         "type": "Point",
@@ -330,8 +400,9 @@
         "marker-color": "#ff7e7e",
         "marker-size": "medium",
         "marker-symbol": "s",
-        "name": "PH√ñNIX-Haus Im Lerchenfeld",
-        "adresse": "Im Lerchenfeld 3, 07743 Jena"
+        "name": "PH÷NIX-Haus Im Lerchenfeld",
+        "adresse": "Im Lerchenfeld 3, 07743 Jena",
+		"gesamt": 91.40
       },
       "geometry": {
         "type": "Point",
@@ -347,25 +418,9 @@
         "marker-color": "#ff7e7e",
         "marker-size": "medium",
         "marker-symbol": "s",
-        "name": "PH√ñNIX-Haus Im Lerchenfeld",
-        "adresse": "Im Lerchenfeld 3, 07743 Jena"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.5999365,
-          50.9458997
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#ff7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "s",
-        "name": "PH√ñNIX-Haus Im Lerchenfeld Der besch√ºtzte Wohn- und Lebensraum 'Blau'",
-        "adresse": "Im Lerchenfeld 3, 07743 Jena"
+        "name": "PH÷NIX-Haus Im Lerchenfeld Der besch¸tzte Wohn- und Lebensraum 'Blau'",
+        "adresse": "Im Lerchenfeld 3, 07743 Jena",
+		"gesamt": 95.90
       },
       "geometry": {
         "type": "Point",
@@ -381,8 +436,9 @@
         "marker-color": "#ff7e7e",
         "marker-size": "medium",
         "marker-symbol": "a",
-        "name": "Einrichtung Ruhwedel Pflegedienst f√ºr Au√üerklinische Beatmung und Intensivpflege Inh. Renate Ruhwedel",
-        "adresse": "Schenkstr. 22, 07749 Jena"
+        "name": "Einrichtung Ruhwedel Pflegedienst f¸r Auﬂerklinische Beatmung und Intensivpflege Inh. Renate Ruhwedel",
+        "adresse": "Schenkstr. 22, 07749 Jena",
+		"gesamt": 89.60
       },
       "geometry": {
         "type": "Point",
@@ -399,7 +455,8 @@
         "marker-size": "medium",
         "marker-symbol": "s",
         "name": "Seniorenresidenz Visitamed GmbH",
-        "adresse": "Juri-Gagarin-Stra√üe 32, 07743 Jena"
+        "adresse": "Juri-Gagarin-Straﬂe 32, 07743 Jena",
+		"gesamt": 93.70
       },
       "geometry": {
         "type": "Point",
@@ -416,7 +473,8 @@
         "marker-size": "medium",
         "marker-symbol": "s",
         "name": "Seniorenresidenz Visitamed GmbH Tagespflege",
-        "adresse": "Juri-Gagarin-Stra√üe 32, 07743 Jena"
+        "adresse": "Juri-Gagarin-Straﬂe 32, 07743 Jena",
+		"gesamt": 0
       },
       "geometry": {
         "type": "Point",
@@ -433,7 +491,8 @@
         "marker-size": "medium",
         "marker-symbol": "s",
         "name": "Seniorenwohnen Am Villengang",
-        "adresse": "Sellierstra√üe 8, 07745 Jena"
+        "adresse": "Sellierstraﬂe 8, 07745 Jena",
+		"gesamt": 98.60
       },
       "geometry": {
         "type": "Point",
@@ -449,8 +508,9 @@
         "marker-color": "#ff7e7e",
         "marker-size": "medium",
         "marker-symbol": "s",
-        "name": "Seniorenzentrum Gertrud Sch√§fer Haus",
-        "adresse": "L√∂bichauer Stra√üe 71, 07749 Jena"
+        "name": "Seniorenzentrum Gertrud Sch‰fer Haus",
+        "adresse": "Lˆbichauer Straﬂe 71, 07749 Jena",
+		"gesamt": 100.00
       },
       "geometry": {
         "type": "Point",
@@ -466,8 +526,9 @@
         "marker-color": "#ff7e7e",
         "marker-size": "medium",
         "marker-symbol": "a",
-        "name": "Sicher und Sozial Dienste H√§usliche Pflege und Betreuungs GmbH",
-        "adresse": "Merseburger Str. 15, 07743 Jena"
+        "name": "Sicher und Sozial Dienste H‰usliche Pflege und Betreuungs GmbH",
+        "adresse": "Merseburger Str. 15, 07743 Jena",
+		"gesamt": 94.80
       },
       "geometry": {
         "type": "Point",
@@ -484,7 +545,8 @@
         "marker-size": "medium",
         "marker-symbol": "a",
         "name": "SiLenzaPflege GmbH Hauskrankenpflege",
-        "adresse": "August-Bebel-Str. 27 a, 07743 Jena"
+        "adresse": "August-Bebel-Str. 27 a, 07743 Jena",
+		"gesamt": 97.40
       },
       "geometry": {
         "type": "Point",
@@ -501,7 +563,8 @@
         "marker-size": "medium",
         "marker-symbol": "a",
         "name": "Sozialstation im Alten- zentrum Luisenhaus gGmbH",
-        "adresse": "Semmelweisstr. 14-16, 07743 Jena"
+        "adresse": "Semmelweisstr. 14-16, 07743 Jena",
+		"gesamt": 97.40
       },
       "geometry": {
         "type": "Point",
@@ -518,7 +581,8 @@
         "marker-size": "medium",
         "marker-symbol": "a",
         "name": "Tagespflege Blech",
-        "adresse": "Emma-Heintz-Stra√üe 32, 07745 Jena"
+        "adresse": "Emma-Heintz-Straﬂe 32, 07745 Jena",
+		"gesamt": 0
       },
       "geometry": {
         "type": "Point",
@@ -535,24 +599,8 @@
         "marker-size": "medium",
         "marker-symbol": "s",
         "name": "Visitamed GmbH Ambulante Pflege",
-        "adresse": "Karl-G√ºnther-Str. 2-4, 07749 Jena"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.6078583,
-          50.9327227
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#ff7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "s",
-        "name": "Visitamed GmbH Ambulante Pflege",
-        "adresse": "Karl-G√ºnther-Str. 2-4, 07749 Jena"
+        "adresse": "Karl-G¸nther-Str. 2-4, 07749 Jena",
+		"gesamt": 89.60
       },
       "geometry": {
         "type": "Point",
@@ -569,7 +617,8 @@
         "marker-size": "medium",
         "marker-symbol": "s",
         "name": "Vitanas Senioren Centrum Im Saaletal",
-        "adresse": "Camburger Stra√üe 69, 07743 Jena"
+        "adresse": "Camburger Straﬂe 69, 07743 Jena",
+		"gesamt": 86.1
       },
       "geometry": {
         "type": "Point",
@@ -585,8 +634,9 @@
         "marker-color": "#ff7e7e",
         "marker-size": "medium",
         "marker-symbol": "a",
-        "name": "Volkssolidarit√§t Ostth√ºingen gGmbH Pflegedienst",
-        "adresse": "Max-Steenbeck-Str. 19, 07745 Jena"
+        "name": "Volkssolidarit‰t Ostth¸ingen gGmbH Pflegedienst",
+        "adresse": "Max-Steenbeck-Str. 19, 07745 Jena",
+		"gesamt": 81.4
       },
       "geometry": {
         "type": "Point",
@@ -602,8 +652,9 @@
         "marker-color": "#ff7e7e",
         "marker-size": "medium",
         "marker-symbol": "a",
-        "name": "Wohn- und Seniorenzentrum K√§the Kollwitz",
-        "adresse": "Schlegelstra√üe 1, 07747 Jena"
+        "name": "Wohn- und Seniorenzentrum K‰the Kollwitz",
+        "adresse": "Schlegelstraﬂe 1, 07747 Jena",
+		"gesamt": 98.9
       },
       "geometry": {
         "type": "Point",
@@ -615,4 +666,81 @@
     }
     
   ]
-}
+};
+
+	var map = L.map('map').setView([50.9233633, 11.5818025], 13);
+
+	L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+		maxZoom: 18,
+		attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
+			'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+			'Imagery © <a href="http://mapbox.com">Mapbox</a>',
+		id: 'mapbox.light'
+	}).addTo(map);
+
+	var baseballIcon = L.icon({
+		iconUrl: 'baseball-marker.png',
+		iconSize: [32, 37],
+		iconAnchor: [16, 37],
+		popupAnchor: [0, -28]
+	});
+
+	function onEachFeature(feature, layer) {
+		var popupContent = "<b>" + feature.properties.name + "</b><p>Gesamt: " + feature.properties.gesamt + "%</p>";
+
+		if (feature.properties && feature.properties.popupContent) {
+			popupContent += feature.properties.popupContent;
+		}
+
+		layer.bindPopup(popupContent);
+	}
+
+	L.geoJSON([bicycleRental], {
+
+		style: function (feature) {
+			return feature.properties && feature.properties.style;
+		},
+
+		onEachFeature: onEachFeature,
+
+		pointToLayer: function (feature, latlng) {
+			return L.circleMarker(latlng, {
+				radius: getRadius(feature.properties.gesamt),
+				fillColor: getColor(feature.properties.gesamt),
+				color: "#000",
+				weight: 1,
+				opacity: 1,
+				fillOpacity: 0.8
+			});
+		}
+	}).addTo(map);
+
+//	L.geoJSON(freeBus, {
+//
+//		filter: function (feature, layer) {
+//			if (feature.properties) {
+//				// If the property "underConstruction" exists and is true, return false (don't render features under construction)
+//				return feature.properties.underConstruction !== undefined ? !feature.properties.underConstruction : true;
+//			}
+//			return false;
+//		},
+//
+//		onEachFeature: onEachFeature
+//	}).addTo(map);
+
+	var coorsLayer = L.geoJSON(coorsField, {
+
+		pointToLayer: function (feature, latlng) {
+			return L.marker(latlng, {icon: baseballIcon});
+		},
+
+		onEachFeature: onEachFeature
+	}).addTo(map);
+
+</script>
+
+
+
+</body>
+</html>
+
