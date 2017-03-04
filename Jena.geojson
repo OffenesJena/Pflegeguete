@@ -1,0 +1,618 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "a",
+        "name": "advita Pflegedienst GmbH Niederlassung Jena SGB V / SGB XI Ambulante Pflege",
+        "adresse": "Max-Steenbeck-Str. 17, 07745 Jena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5764498,
+          50.9017121
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "s",
+        "name": "Altenzentrum Luisenhaus",
+        "adresse": "Semmelweisstraße 14-16, 07743 Jena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5790625,
+          50.9299201
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "a",
+        "name": "APP Aktion Wandlungswelten gGmbH",
+        "adresse": "Schenkstr. 21, 07749 Jena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6005967,
+          50.9306451
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "a",
+        "name": "Arbeiter-Samariter-Bund Kreisverband Jena e.V. Sozialstation",
+        "adresse": "Erfurter Str. 13, 07743 Jena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5681002,
+          50.9337995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "a",
+        "name": "Arbeiterwohlfahrt KV Jena-Weimar e.V. Sozialstation",
+        "adresse": "Kastanienstr. 11, 07747 Jena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6159781,
+          50.887046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "s",
+        "name": "AWO KV Jena-Weimar e.V. AWO Tagespflege im Wohnpark Lebenszeit",
+        "adresse": "Rudolf-Breitscheid-Straße 2, 07747 Jena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6230508,
+          50.8802851
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "s",
+        "name": "AWO Seniorenzentrum Am Heiligenberg",
+        "adresse": "Naumburger Straße 55a, 07743 Jena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6100909,
+          50.9506308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "a",
+        "name": "Blech Martina Häusliche Krankenpflege",
+        "adresse": "Emma-Heintz-Str. 32, 07745 Jena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.57084,
+          50.911079
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "s",
+        "name": "CURANUM Seniorenzentrum Jena",
+        "adresse": "Forstweg 59, 07745 Jena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.577377,
+          50.9264531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "a",
+        "name": "Deutsches Rotes Kreuz KV Jena-Eisenberg- Stadtroda e.V. Sozialstation Jena-Camburg",
+        "adresse": "Dammstr. 32, 07749 Jena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5979128,
+          50.9308513
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "t",
+        "name": "Diakonie Ostthüringen gGmbH",
+        "adresse": "Schlegelstrasse 1, 07747 Jena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6278596,
+          50.8832618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "a",
+        "name": "Diakonie-Sozialstation Jena gGmbH",
+        "adresse": "August-Bebel-Str. 17, 07743 Jena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.575423,
+          50.9315021
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "s",
+        "name": "DO Seniorenzentrum gGmbH Gertrud Schäfer Haus Tagespflege",
+        "adresse": "Löbichauer Straße 71, 07749 Jena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6271026,
+          50.9323591
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "s",
+        "name": "DRK Seniorenheim Am Kleinertal gGmbH",
+        "adresse": "Friedrich-Zucker-Straße 2, 07745 Jena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5721457,
+          50.9016716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "s",
+        "name": "DRK Seniorenheim Am Kleinertal gGmbH Tagespflege",
+        "adresse": "Friedrich-Zucker-Straße 2, 07745 Jena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5721457,
+          50.9016716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "a",
+        "name": "Endres Gerhard Dr. Hauskrankenpflege Universum",
+        "adresse": "Magdelstieg 34, 07745 Jena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5748448,
+          50.9244274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "t",
+        "name": "linimed GmbH",
+        "adresse": "Fregestr. 8, 07747 Jena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.599814,
+          50.8811879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "a",
+        "name": "Linimed GmbH Ambulante Intensivpflege",
+        "adresse": "Fregestr. 8, 07747 Jena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.599814,
+          50.8811879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "s",
+        "name": "linimed Residenzen GmbH Pflegeheim 'Am Hahnengrund'",
+        "adresse": "Schrödingerstraße 94, 07745 Jena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5712373,
+          50.9024404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "s",
+        "name": "PHÖNIX-Haus Im Lerchenfeld",
+        "adresse": "Im Lerchenfeld 3, 07743 Jena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5999365,
+          50.9458997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "s",
+        "name": "PHÖNIX-Haus Im Lerchenfeld",
+        "adresse": "Im Lerchenfeld 3, 07743 Jena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5999365,
+          50.9458997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "s",
+        "name": "PHÖNIX-Haus Im Lerchenfeld Der beschützte Wohn- und Lebensraum 'Blau'",
+        "adresse": "Im Lerchenfeld 3, 07743 Jena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5999365,
+          50.9458997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "a",
+        "name": "Einrichtung Ruhwedel Pflegedienst für Außerklinische Beatmung und Intensivpflege Inh. Renate Ruhwedel",
+        "adresse": "Schenkstr. 22, 07749 Jena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.600119,
+          50.9310288
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "s",
+        "name": "Seniorenresidenz Visitamed GmbH",
+        "adresse": "Juri-Gagarin-Straße 32, 07743 Jena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.618797,
+          50.9626645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "s",
+        "name": "Seniorenresidenz Visitamed GmbH Tagespflege",
+        "adresse": "Juri-Gagarin-Straße 32, 07743 Jena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.618797,
+          50.9626645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "s",
+        "name": "Seniorenwohnen Am Villengang",
+        "adresse": "Sellierstraße 8, 07745 Jena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5818025,
+          50.9233633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "s",
+        "name": "Seniorenzentrum Gertrud Schäfer Haus",
+        "adresse": "Löbichauer Straße 71, 07749 Jena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6271026,
+          50.9323591
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "a",
+        "name": "Sicher und Sozial Dienste Häusliche Pflege und Betreuungs GmbH",
+        "adresse": "Merseburger Str. 15, 07743 Jena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6005627,
+          50.9475749
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "a",
+        "name": "SiLenzaPflege GmbH Hauskrankenpflege",
+        "adresse": "August-Bebel-Str. 27 a, 07743 Jena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5732736,
+          50.9318436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "a",
+        "name": "Sozialstation im Alten- zentrum Luisenhaus gGmbH",
+        "adresse": "Semmelweisstr. 14-16, 07743 Jena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5753258,
+          50.93095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "a",
+        "name": "Tagespflege Blech",
+        "adresse": "Emma-Heintz-Straße 32, 07745 Jena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.57084,
+          50.911079
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "s",
+        "name": "Visitamed GmbH Ambulante Pflege",
+        "adresse": "Karl-Günther-Str. 2-4, 07749 Jena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6078583,
+          50.9327227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "s",
+        "name": "Visitamed GmbH Ambulante Pflege",
+        "adresse": "Karl-Günther-Str. 2-4, 07749 Jena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6078583,
+          50.9327227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "s",
+        "name": "Vitanas Senioren Centrum Im Saaletal",
+        "adresse": "Camburger Straße 69, 07743 Jena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6022372,
+          50.9455043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "a",
+        "name": "Volkssolidarität Ostthüingen gGmbH Pflegedienst",
+        "adresse": "Max-Steenbeck-Str. 19, 07745 Jena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5765859,
+          50.901694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "a",
+        "name": "Wohn- und Seniorenzentrum Käthe Kollwitz",
+        "adresse": "Schlegelstraße 1, 07747 Jena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6278596,
+          50.8832618
+        ]
+      }
+    }
+    
+  ]
+}
