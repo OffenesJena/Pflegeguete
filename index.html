@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GeoJSON tutorial - Leaflet</title>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+  <script src="parkbaenke.geojson"></script>
+  <script src="doktoren.geojson"></script>
+  <script src="altenheime.geojson"></script>
+  <script src="apotheke.geojson"></script>
+  <script src="atm.geojson"></script>
+  <script src="hairdresser.geojson"></script>
+  <!-- <script src="bezirke.js"></script> !-->
+
+  <script src="jquery.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="controls.js"></script>
+
+
+  <style>
+    #map {
+      position: absolute;
+      left: 150px;
+      right:  0px;
+      height: 100%;
+    }
+
+    #controlBG {
+      padding: 10px;
+      margin: 10px;
+
+    #Altenheim
+    #Artzt {}
+    #Apotheke {}
+    #Geldautomat {}
+    #Parkbank {}
+    #Frisoer {}
+    }
+  </style>
+
+
+</head>
+<body style="margin: 0px">
+
+<div id='map'></div>
+<div id="controlBG">
+  <div class="btn-group-vertical" role="group" aria-label="...">
+    <button type="button" class="btn btn-default" id="Altenheim">Altenheim</button>
+    <button type="button" class="btn btn-default" id="Arzt">Arzt</button>
+    <button type="button" class="btn btn-default" id="Apotheke">Apotheke</button>
+    <button type="button" class="btn btn-default" id="Geldautomat">Geldautomat</button>
+    <button type="button" class="btn btn-default" id="Parkbank">Parkbank</button>
+    <button type="button" class="btn btn-default" id="Frisoer">Frisör</button>
+  </div>
+</div>
+
+
+
+<script>
+  function getColor(d) {
+    return     d > 97.36   ? '#BD0026' :
+               d > 94.7    ? '#E31A1C' :
+               d > 92.04   ? '#FC4E2A' :
+               d > 89.38   ? '#FD8D3C' :
+               d > 86.72   ? '#FEB24C' :
+               d > 84.06   ? '#FED976' :
+                '#FFEDAA';
+  }
+
+  function getColorKinder(d) {
+    return d > 97.36   ? '#6D0026' :
+               d > 94.7    ? '#A31A1C' :
+               d > 92.04   ? '#AC4E2A' :
+               d > 89.38   ? '#AD8D3C' :
+               d > 86.72   ? '#AEB24C' :
+               d > 84.06   ? '#AED976' :
+                      '#AFEDA0';
+  }
+
+  function getRadius(d) {
+    return d > 97.36 ? 14:
+               d > 94.7  ? 12:
+               d > 92.04 ? 10:
+               d > 89.38 ?  8:
+               d > 86.72 ?  6:
+               d > 84.06 ?  4:
+                        2;
+  }
+
+
+  var map = L.map('map').setView([50.9233633, 11.5818025], 13);
+
+  L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+    maxZoom: 18,
+    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
+      '<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+      'Imagery © <a href="http://mapbox.com">Mapbox</a>',
+    id: 'mapbox.light'
+  }).addTo(map);
+
+  var baseballIcon = L.icon({
+    iconUrl: 'baseball-marker.png',
+    iconSize: [32, 37],
+    iconAnchor: [16, 37],
+    popupAnchor: [0, -28]
+  });
+
+  function onEachFeature(feature, layer) {
+    var popupContent = "<b>" + feature.properties.name + "</b><p>Gesamt: " + feature.properties.gesamt + "%</p>";
+
+    if (feature.properties && feature.properties.popupContent) {
+      popupContent += feature.properties.popupContent;
+    }
+
+    layer.bindPopup(popupContent);
+  }
+
+
+  var LAtm = L.geoJSON([Atm], {
+
+    style: function (feature) {
+      return feature.properties && feature.properties.style;
+    },
+
+    onEachFeature: onEachFeature,
+
+    pointToLayer: function (feature, latlng) {
+      return L.circleMarker(latlng, {
+        radius: 7,
+        fillColor: "#00F",
+        color: "#000",
+        weight: 1,
+        opacity: 0,
+        fillOpacity: 0.8
+      });
+    }
+  });
+
+  var Baenke = L.geoJSON([Parkbaenke], {
+
+    style: function (feature) {
+      return feature.properties && feature.properties.style;
+    },
+
+    onEachFeature: onEachFeature,
+
+    pointToLayer: function (feature, latlng) {
+      return L.circleMarker(latlng, {
+        radius:    7,
+        fillColor: "#9A4",
+        color: "#8F5",
+        weight: 1,
+        opacity: 1,
+        fillOpacity: 0.8
+      });
+    }
+  });
+
+
+  var Heime = L.geoJSON([Altenheime], {
+
+    style: function (feature) {
+      return feature.properties && feature.properties.style;
+    },
+
+    onEachFeature: onEachFeature,
+
+    pointToLayer: function (feature, latlng) {
+      return L.circleMarker(latlng, {
+        radius:    getRadius(feature.properties.gesamt),
+        fillColor: getColor (feature.properties.gesamt),
+        color: "#000",
+        weight: 1,
+        opacity: 1,
+        fillOpacity: 0.8
+      });
+    }
+  });
+
+
+  var Apo = L.geoJSON([Apotheke], {
+
+    style: function (feature) {
+      return feature.properties && feature.properties.style;
+    },
+
+    onEachFeature: onEachFeature,
+
+    pointToLayer: function (feature, latlng) {
+      return L.circleMarker(latlng, {
+        radius:    8,
+        fillColor: "#0F0",
+        color: "#000",
+        weight: 1,
+        opacity: 1,
+        fillOpacity: 0.8
+      });
+    }
+  });
+
+  var Doctors = L.geoJSON([Doctors], {
+
+    style: function (feature) {
+      return feature.properties && feature.properties.style;
+    },
+
+    onEachFeature: onEachFeature,
+
+    pointToLayer: function (feature, latlng) {
+      return L.circleMarker(latlng, {
+        radius:    6,//getRadius(feature.properties.gesamt),
+        fillColor: getColorKinder (feature.properties.gesamt),
+        color: "#000",
+        weight: 1,
+        opacity: 1,
+        fillOpacity: 0.8
+      });
+    }
+  });
+
+
+  var Friesoer = L.geoJSON([Hairdresser], {
+
+    style: function (feature) {
+      return feature.properties && feature.properties.style;
+    },
+
+    onEachFeature: onEachFeature,
+
+    pointToLayer: function (feature, latlng) {
+      return L.circleMarker(latlng, {
+        radius:    6,
+        fillColor: "#888",
+        color: "#FFF",
+        weight: 1,
+        opacity: 1,
+        fillOpacity: 0.8
+      });
+    }
+  });
+
+
+  $( document ).ready(function(){
+
+  $(map).hide();
+
+  });
+
+</script>
+
+</body>
+</html>
+
