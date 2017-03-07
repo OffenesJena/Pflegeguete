@@ -1,4 +1,4 @@
-{
+var Doctors = {
   "type": "FeatureCollection",
   "generator": "overpass-turbo",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
@@ -13,7 +13,7 @@
         "addr:housenumber": "20",
         "addr:postcode": "07743",
         "addr:street": "Zeitzer Straße",
-        "amenity": "doctors",
+        "amenity": "Doktoren",
         "building": "yes",
         "building:levels": "2",
         "contact:website": "http://www.nuklearmedizin-jena.de",
@@ -63,7 +63,7 @@
         "addr:housenumber": "1",
         "addr:postcode": "07743",
         "addr:street": "Schillbachstraße",
-        "amenity": "doctors",
+        "amenity": "Doktoren",
         "building": "commercial",
         "building:levels": "2",
         "contact:phone": "+49 3641 221606",
@@ -109,7 +109,7 @@
         "addr:housenumber": "2",
         "addr:postcode": "07743",
         "addr:street": "Zitzmannstraße",
-        "amenity": "doctors",
+        "amenity": "Doktoren",
         "building": "house",
         "name": "Urologie-Praxis E. Hofmann"
       },
@@ -175,7 +175,7 @@
         "addr:housenumber": "8",
         "addr:postcode": "07743",
         "addr:street": "Engelplatz",
-        "amenity": "doctors",
+        "amenity": "Doktoren",
         "name": "Ringelmann Wendenburg Kinderarzt",
         "wheelchair": "yes"
       },
@@ -197,7 +197,7 @@
         "addr:postcode": "07747",
         "addr:street": "Susanne-Bohl-Straße",
         "addr:suburb": "Lobeda",
-        "amenity": "doctors"
+        "amenity": "Doktoren"
       },
       "geometry": {
         "type": "Point",
@@ -212,7 +212,7 @@
       "id": "node/626491110",
       "properties": {
         "@id": "node/626491110",
-        "amenity": "doctors",
+        "amenity": "Doktoren",
         "name": "Dr. Gneist",
         "wheelchair": "no"
       },
@@ -230,7 +230,7 @@
       "properties": {
         "@id": "node/637041636",
         "addr:city": "Jena",
-        "amenity": "doctors"
+        "amenity": "Doktoren"
       },
       "geometry": {
         "type": "Point",
@@ -245,7 +245,7 @@
       "id": "node/637041846",
       "properties": {
         "@id": "node/637041846",
-        "amenity": "doctors"
+        "amenity": "Doktoren"
       },
       "geometry": {
         "type": "Point",
@@ -260,7 +260,7 @@
       "id": "node/637042837",
       "properties": {
         "@id": "node/637042837",
-        "amenity": "doctors",
+        "amenity": "Doktoren",
         "wheelchair": "yes"
       },
       "geometry": {
@@ -281,7 +281,7 @@
         "addr:housenumber": "140",
         "addr:postcode": "07743",
         "addr:street": "Dornburger Straße",
-        "amenity": "doctors",
+        "amenity": "Doktoren",
         "name": "Zahnarzt Katja Abendroth"
       },
       "geometry": {
@@ -297,7 +297,7 @@
       "id": "node/1442220314",
       "properties": {
         "@id": "node/1442220314",
-        "amenity": "doctors",
+        "amenity": "Doktoren",
         "emergency": "no",
         "name": "Kinderarztpraxis",
         "office": "physician",
@@ -316,7 +316,7 @@
       "id": "node/2609389738",
       "properties": {
         "@id": "node/2609389738",
-        "amenity": "doctors",
+        "amenity": "Doktoren",
         "name": "Kassenärztlicher Notdienst"
       },
       "geometry": {
@@ -332,7 +332,7 @@
       "id": "node/3795470949",
       "properties": {
         "@id": "node/3795470949",
-        "amenity": "doctors",
+        "amenity": "Doktoren",
         "name": "Gemeinschaftspraxis Müller, Thiele"
       },
       "geometry": {
@@ -348,7 +348,7 @@
       "id": "node/4077523338",
       "properties": {
         "@id": "node/4077523338",
-        "amenity": "doctors",
+        "amenity": "Doktoren",
         "name": "Allgemeinmedizin Frau Dr. Wolf"
       },
       "geometry": {
@@ -368,7 +368,7 @@
         "addr:housenumber": "22",
         "addr:postcode": "07749",
         "addr:street": "Schenkstraße",
-        "amenity": "doctors",
+        "amenity": "Doktoren",
         "name": "MVZ Jena HELIOS Versorgungszentren",
         "opening_hours": "Mo,We,Fr 08:00-12:00; Tu 08:00-12:00,16:00-19:00; Th 15:00-18:00; PH off",
         "phone": "03641335904"
@@ -390,7 +390,7 @@
         "addr:housenumber": "3-4",
         "addr:postcode": "07743",
         "addr:street": "Ernst-Abbe-Platz",
-        "amenity": "doctors",
+        "amenity": "Doktoren",
         "name": "Diabetologische Schwerpunktpraxis",
         "opening_hours": "Mo,Tu,Th 08:00-11:00,14:00-18:00; We,Fr 08:00-11:00",
         "website": "http://www.diabetes-jena.de/"
@@ -412,7 +412,7 @@
         "addr:housenumber": "91",
         "addr:postcode": "07743",
         "addr:street": "Camburger Straße",
-        "amenity": "doctors",
+        "amenity": "Doktoren",
         "level": "0",
         "name": "Dr. med. Kielstein",
         "phone": "+49 3641 821122",

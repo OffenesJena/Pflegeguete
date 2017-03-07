@@ -1,0 +1,265 @@
+var Apotheke = {
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2017-03-04T14:34:03Z",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "node/292167050",
+      "properties": {
+        "@id": "node/292167050",
+        "addr:city": "Jena",
+        "addr:housenumber": "2",
+        "addr:postcode": "07745",
+        "addr:street": "Otto-Schott-Straße",
+        "amenity": "pharmacy",
+        "contact:email": "Forst-Apotheke-Jena@arcor.de",
+        "contact:fax": "+49 3641 215200",
+        "contact:phone": "+49 3641 605528",
+        "contact:website": "http://www.forstapothekejena.de",
+        "dispensing": "yes",
+        "name": "Forst-Apotheke",
+        "opening_hours": "Mo-Fr 07:30-18:30; Sa 09:00-12:00",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5772376,
+          50.9243147
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/292167051",
+      "properties": {
+        "@id": "node/292167051",
+        "addr:city": "Jena",
+        "addr:housenumber": "2",
+        "addr:postcode": "07745",
+        "addr:street": "Westbahnhofstraße",
+        "amenity": "pharmacy",
+        "contact:email": "zeissapotheke@t-online.de",
+        "contact:fax": "+49 3641 673372",
+        "contact:phone": "+49 3641 620658",
+        "contact:website": "http://www.zeiss-apotheke.de",
+        "dispensing": "yes",
+        "name": "Zeiss Apotheke",
+        "opening_hours": "Mo-Fr 08:00-18:00",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5819238,
+          50.9254659
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/292167052",
+      "properties": {
+        "@id": "node/292167052",
+        "addr:city": "Jena",
+        "addr:housenumber": "1",
+        "addr:postcode": "07745",
+        "addr:street": "Schillerstraße",
+        "amenity": "pharmacy",
+        "contact:email": "info@Semmelweis-Apotheke.de",
+        "contact:fax": "+49 3641 2313-31",
+        "contact:phone": "+49 3641 2313-0",
+        "contact:website": "http://www.medipolis-apotheken.de/jena-apotheke-im-eulenhaus.html",
+        "dispensing": "yes",
+        "name": "Semmelweis Apotheke",
+        "opening_hours": "Mo-Fr 08:00-20:00; Sa 09:00-14:00",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5836613,
+          50.9275233
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/292170197",
+      "properties": {
+        "@id": "node/292170197",
+        "addr:city": "Jena",
+        "addr:country": "DE",
+        "addr:housenumber": "3-4",
+        "addr:postcode": "07743",
+        "addr:state": "Thüringen",
+        "addr:street": "Ernst-Abbe-Platz",
+        "amenity": "pharmacy",
+        "contact:email": "campusapotheke@amz-jena.de",
+        "contact:fax": "+49 3641 574101",
+        "contact:phone": "+49 3641 574100",
+        "contact:website": "http://www.campusapotheke.de",
+        "dispensing": "yes",
+        "name": "Campus-Apotheke",
+        "opening_hours": "Mo-Fr 08:00-20:00; Sa 08:00-17:00",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5816819,
+          50.9279983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/292170198",
+      "properties": {
+        "@id": "node/292170198",
+        "addr:city": "Jena",
+        "addr:country": "DE",
+        "addr:housename": "Post-Carré",
+        "addr:housenumber": "8",
+        "addr:postcode": "07743",
+        "addr:state": "Thüringen",
+        "addr:street": "Engelplatz",
+        "amenity": "pharmacy",
+        "contact:email": "info@apothekeimpostcarre.de",
+        "contact:fax": "+49 3641 6382-11",
+        "contact:phone": "+49 3641 6382-0",
+        "contact:website": "http://www.apothekeimpostcarre.de",
+        "dispensing": "yes",
+        "name": "Apotheke im Post-Carré‎",
+        "opening_hours": "Mo-Fr 07:30-18:30; Sa 08:00-12:00",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5832269,
+          50.9265725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/292170199",
+      "properties": {
+        "@id": "node/292170199",
+        "addr:city": "Jena",
+        "addr:country": "DE",
+        "addr:housename": "Goethe Galerie",
+        "addr:housenumber": "3b",
+        "addr:postcode": "07743",
+        "addr:state": "Thüringen",
+        "addr:street": "Goethestraße",
+        "amenity": "pharmacy",
+        "contact:email": "service@ca-jena.de",
+        "contact:fax": "+49 3641 420149",
+        "contact:phone": "+49 3641 420150",
+        "contact:website": "http://www.centrum-apotheke-jena.de",
+        "dispensing": "yes",
+        "name": "Centrum-Apotheke",
+        "opening_hours": "Mo-Sa 09:00-20:00",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.582132,
+          50.9275719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/292170200",
+      "properties": {
+        "@id": "node/292170200",
+        "addr:city": "Jena",
+        "addr:country": "DE",
+        "addr:housenumber": "5",
+        "addr:postcode": "07743",
+        "addr:street": "Löbderstraße",
+        "amenity": "pharmacy",
+        "contact:fax": "+49 3641 459521",
+        "contact:phone": "+49 3641 45950",
+        "contact:website": "http://www.apotheke-jena.de/",
+        "dispensing": "yes",
+        "name": "Flora Apotheke Jena‎",
+        "opening_hours": "Mo-Fr 08:00-18:30; Sa 08:00-13:00",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5865365,
+          50.9275376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/292170201",
+      "properties": {
+        "@id": "node/292170201",
+        "addr:city": "Jena",
+        "addr:country": "DE",
+        "addr:housenumber": "7",
+        "addr:postcode": "07743",
+        "addr:street": "Weigelstraße",
+        "amenity": "pharmacy",
+        "contact:email": "hotmail@goethe-apotheke-jena.de",
+        "contact:fax": "+49 3641 454599",
+        "contact:phone": "+49 3641 454545",
+        "contact:website": "http://www.goethe-apotheke-jena.de",
+        "dispensing": "yes",
+        "name": "Goethe-Apotheke‎",
+        "opening_hours": "Mo-Fr 08:00-19:00; Sa 09:00-16:00",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5871858,
+          50.9291761
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1632696601",
+      "properties": {
+        "@id": "node/1632696601",
+        "addr:city": "Jena",
+        "addr:country": "DE",
+        "addr:housenumber": "2",
+        "addr:postcode": "07743",
+        "addr:state": "Thüringen",
+        "addr:street": "Markt",
+        "amenity": "pharmacy",
+        "contact:fax": "+49 3641 525220",
+        "contact:phone": "+49 3641 52520",
+        "contact:website": "https://www.rats-apotheke-jena.de",
+        "name": "Rats-Apotheke",
+        "opening_hours": "Mo-Fr 08:00-19:00; Sa 08:00-14:00",
+        "operator": "Leander Knorre",
+        "phone": "+49 3641 52520",
+        "toilets:wheelchair": "no",
+        "website": "https://www.rats-apotheke-jena.de",
+        "wheelchair": "yes",
+        "wheelchair:description": "Direkt vor der Rats-Apotheke sind zwar Treppenstufen. Mit dem Rollstuhl/ Kinderwagen kann man jedoch von der Seite ebenerdig hineinfahren (siehe Fotos)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5875794,
+          50.9281466
+        ]
+      }
+    }
+  ]
+}
